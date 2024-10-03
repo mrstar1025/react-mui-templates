@@ -66,7 +66,7 @@ const SignIn = () => {
 
         <Box sx={{ display: 'flex', alignItems: 'center', pt: 2, justifyContent: 'center' }}>
           <Typography sx={{ color: '#888', pr: 1 }}>Don't have an account?</Typography>
-          <Link underline="always" onClick={() => alert('a')}>
+          <Link underline="always" onClick={() => alert('Clicked Signup')}>
             Sign up
           </Link>
         </Box>
@@ -80,7 +80,7 @@ const SignIn = () => {
           variant='outlined'
           fullWidth
           startIcon={<GoogleIcon />}
-          onClick={() => { alert('Test') }}
+          onClick={() => { alert('Signin with Google') }}
         >
           Sign in with google
         </Button>
@@ -88,7 +88,7 @@ const SignIn = () => {
           variant='outlined'
           fullWidth
           startIcon={<FacebookRoundedIcon />}
-          onClick={() => { alert('Test1') }}
+          onClick={() => { alert('Signin with Facebook') }}
           sx={{ my: 2 }}
         >
           Sign in with Facebook
